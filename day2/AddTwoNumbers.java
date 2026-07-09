@@ -1,18 +1,9 @@
 package day2;
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}
 
 public class AddTwoNumbers {
-
-    public static Node add(Node head, Node head1) {
+    
+    static Node add(Node head, Node head1) {
 
         Node dummy = new Node(0);
         Node curr = dummy;

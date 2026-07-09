@@ -1,17 +1,8 @@
 package day2;
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}
 
 public class removenthnode {
 
-    public static Node removeNthFromEnd(Node head, int n) {
+    static Node removeNthFromEnd(Node head, int n) {
 
         int length = 0;
         Node temp = head;
@@ -33,5 +24,4 @@ public class removenthnode {
 
         return dummy.next;
     }
-
-}       
+}
