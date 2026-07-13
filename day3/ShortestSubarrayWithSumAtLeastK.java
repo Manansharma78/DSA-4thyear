@@ -1,6 +1,7 @@
+package day3;
 import java.util.*;
 
-public class ShortestSubArrayWithSumAtLeastK {
+public class ShortestSubarrayWithSumAtLeastK {
 
     public static int shortestSubarray(int[] nums, int k) {
 
