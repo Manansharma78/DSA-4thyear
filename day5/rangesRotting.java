@@ -13,7 +13,7 @@ class rangesRotting {
         int n = grid.length;
         int m = grid[0].length;
 
-        // Count fresh oranges and store all rotten oranges
+    
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
 
