@@ -2,7 +2,7 @@ package day5;
 
 import java.util.*;
 
-class Solution {
+class rangesRotting {
     public int orangesRotting(int[][] grid) {
 
         Queue<int[]> q = new LinkedList<>();
